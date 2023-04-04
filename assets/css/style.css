@@ -61,3 +61,12 @@ section{
     text-transform: uppercase;
     font-size: 1.5rem;
 }
+
+.hidden{
+    display: none;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
