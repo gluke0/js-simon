@@ -43,7 +43,9 @@ button{
     flex-wrap: wrap;
 }
 
-div{
+div:not(.container){
     padding: 1rem;
     border: solid 1px white;
+    border-radius: 50%;
+    font-size: 2rem;
 }
