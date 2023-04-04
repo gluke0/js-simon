@@ -42,8 +42,8 @@ play.addEventListener('click', function(){
     };
     
     div.innerHTML += `<span> hai fatto ${result.length} su 5: ${result}</span>`;
-    div.innerHTML += `<section> I numeri random: ${rNumbers} </section>` 
-    div.innerHTML += `<section> I tuoi numeri: ${uNumbers} </section>`
+    div.innerHTML += `<section> I numeri random: ${rNumbers.join(', ')} </section>` 
+    div.innerHTML += `<section> I tuoi numeri: ${uNumbers.join(', ')} </section>`
     
     }, 5000);
 
