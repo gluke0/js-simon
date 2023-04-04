@@ -24,5 +24,15 @@ setTimeout (function() {
         let chosen = parseInt(prompt("Quali numeri ti ricordi?"));
         uNumbers.push(chosen);
     };
-}, 5000);
 
+    for (let i = 0; i < 5; i++){
+    if (rNumbers[i] == uNumbers[i]){
+        result.push(uNumbers[i]);
+    };
+};
+
+div.innerHTML += `<span> hai fatto ${result.length} su 5: ${result}</span>`;
+div.innerHTML += `<section> I numeri random: ${rNumbers} </section>` 
+div.innerHTML += `<section> I tuoi numeri: ${uNumbers} </section>`
+
+}, 5000);
